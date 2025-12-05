@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 6 — Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Week 6: Interactive Web Pages with JavaScript</h1>
+    </header>
+
+    <!-- 🔥 Interactive Feature 1: Light/Dark Mode -->
+    <section class="card">
+        <h2>Light / Dark Mode Toggle</h2>
+        <button id="themeBtn">Toggle Dark Mode</button>
+    </section>
+
+    <!-- 🔥 Interactive Feature 2: Counter -->
+    <section class="card">
+        <h2>Counter Button</h2>
+        <p>Clicks: <span id="count">0</span></p>
+        <button id="countBtn">Increase Counter</button>
+    </section>
+
+    <!-- 🔥 Interactive Feature 3: Collapsible FAQ -->
+    <section class="card">
+        <h2>FAQ Section</h2>
+        
+        <div class="faq-item">
+            <button class="faq-question">What is JavaScript?</button>
+            <p class="faq-answer">JavaScript is a programming language for interactive web pages.</p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What is DOM?</button>
+            <p class="faq-answer">DOM stands for Document Object Model — it lets JS manipulate HTML.</p>
+        </div>
+    </section>
+
+    <!-- 📋 Form Validation Section -->
+    <section class="card">
+        <h2>Sign Up Form</h2>
+
+        <form id="signupForm">
+            <label>Full Name:</label>
+            <input type="text" id="name" placeholder="Enter full name">
+
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="example@mail.com">
+
+            <label>Password:</label>
+            <input type="password" id="password" placeholder="At least 6 characters">
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

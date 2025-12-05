@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px;
+    background: #0077aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005577;
+}
+
+.dark {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark .card {
+    background: #333;
+}
+
+/* FAQ */
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+}
+
+.faq-answer.show {
+    display: block;
+    color: #444;
+}
+
+/* Form */
+input {
+    display: block;
+    width: 100%;
+    margin: 8px 0 15px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
